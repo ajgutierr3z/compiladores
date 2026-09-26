@@ -1,0 +1,9 @@
+%%writefile codigo_prueba.txt
+int base = 10;
+float altura = 5.5;
+
+while (base > 0) {
+    area = (base * altura) / 2;
+    base = base - 1;
+}
+@
